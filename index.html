@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <title>spacetravel</title>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+<body >
+    <section class="header">
+<nav>
+    <a href="index.html" style="text-decoration: none;"><h1>SPACE TRAVEL</h1></a>
+    
+    <div class="nav-links" id="navLinks">
+        <i class="far fa-window-close" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="vehicles.html">VEHICLES</a></li>
+            <li><a href="">NEWS</a></li>
+            <li><a href="fly.html">FLY TO SPACE</a></li>
+            <li><a href="">ABOUT US</a></li>
+
+        </ul>
+    </div>
+    <i class="fas fa-bars" onclick="showMenu()"></i>
+</nav>
+<div id="text-box">
+    <h1>
+         World's fisrt space travel company
+</h1>
+    <p>This is the great oportunity to visit space with us.<br>Make your childish dreams come true.</p>
+<a href="fly.html" class="btn">Click to become an astronaut</a>
+
+</div>
+<a class="play" onclick="toggleVideo();"><img src="play.png" ><p> View Video </p></a>
+<div class="trailer">
+    <video src="video.mp4" controls="true" ></video>
+<img src="close.png" class="close" onclick="toggleVideo();">
+
+</div>
+
+</section> 
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+    function toggleVideo(){
+    const trailer = document.querySelector('.trailer');
+    trailer.classList.toggle('active')
+    video.currentTime = 0;
+    video.pause();
+    }
+</script>
+
+
+
+
+<section class="orbit">
+    <h1>INTRODUCING <br> ORBITAL REEF</h1>
+    <div class="orbit-text">
+        
+    <p>Orbital Reef will be the premier mixed-use space station in low Earth orbit. Space Travel, <br> Sierra Space, Boeing, Redwire Space, Genesis Engineering Solutions, and  Arizona State <br> University form the powerful industry and academic team to deliver Orbital Reef in this <br> decade.</p>
+   
+    <a href="https://www.orbitalreef.com/" class="btn2">MEET ORBITAL REEF</a>
+
+
+
+</div>
+</section>
+
+
+
+
+<section class= "glenn">
+
+    <div class="stard">
+    <h1>NEW STAR-D </h1>
+    <h2>ORBITAL ROCKET</h2>
+    <p> Meet the reusable launch vehicle that will build the road to space</p>
+<a href="" class="btn3" >EXPLORE NEW STAR-D</a>
+
+</div>
+
+</section>
+
+
+
+<section class="engine">
+<div class="engine-re">
+<h1>REUSABLE</h1>
+<h2>ROCKET ENGINE</h2>
+<p>Space Travel's engines are powering the next generation of rockets for <br> commercial, civil, national security and human spaceflight.</p>
+<a href="" class="btn4" >EXPLORE ENGINES</a>
+
+
+</div>
+</section>
+
+
+<footer class="footer">
+    <div class="up">
+          <p>FOLLOW SPACE TRAVEL</p>
+          <span>
+              <a href=""><img src="images/twitter.svg" alt=""></a>
+              <a href=""><img src="images/instagram (1).svg" alt=""></a>
+              <a href=""><img src="images/youtube.svg" alt=""></a>
+              <a href=""><img src="images/linkedin.svg" alt=""></a>
+          </span>
+    </div>
+
+    <div class="down">
+          
+     <div class="down-left">
+         <div class="left-item">
+             <img src="images/" alt="">
+             <p>© 2021 SPACE TRAVEL, ALL RIGHTS RESERVED.</p>
+             <i>
+                 <p>Privacy Policy</p>
+                 <p>Terms of Use</p>
+             </i>
+         </div>
+
+         <div class="right-item">
+             <a href="">News</a>
+             <a href="">Gallery</a>
+             <a href="">Become an Astronaut</a>
+             <a href="">Become a Supplier</a>
+             <a href="">Media Inquiries</a>
+             <a href="">Accessibility</a>
+         </div>
+     </div>
+
+     <div class="down-right">
+         <p>Sign up to receive updates on Space Travel announcements, launches, and opportunities.</p>
+         <span class="subscribe">
+           <input type="text"  placeholder="Subscribe">
+           
+           
+         </span>
+          <i id="check">
+              <input type="checkbox">
+              <p>Please click to confirm your consent to receive our email updates from us. Note you have the right to withdraw your consent at any time by contacting us at privacy@spacetravel.com or by clicking the “unsubscribe link” in the emails we send to you. Please review our privacy policy here for more information on how we process your data.</p>
+          </i>
+     </div>
+    </div>
+ </footer>
+
+ 
+
+
+</body>
+</html>
