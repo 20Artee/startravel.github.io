@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.main{
+    background-image: linear-gradient(to top,rgb(16, 71, 160), rgba(127, 161, 228, 0)), url("imgs/back.jpg");
+    width: 2000px;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main p{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    margin-right: 100px;
+}
+.main h4{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.st{
+
+    padding-left: 50px;
+    width: 380px;
+    height: 380px;
+    justify-content: center;
+  
+}
+
+.we{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team{
+    background-image: linear-gradient(to top,rgb(11, 3, 124), rgba(66, 89, 189, 0)), url("imgs/slider3.jpg");
+    width: 2000px;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.members{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding-top:200px;
+}
+
+.name{
+    font-size: 35px;
+    color:white;
+    margin-top:10px;
+}
+.member{
+    text-align: center;
+    width: 25%;
+}
+.desc{
+    font-size: 25px;
+    color: white;   
+    margin-top: 10px;
+}
+.board{
+    background-image: linear-gradient(to top, rgb(158, 158, 158),rgba(0, 0, 0, 0)), url("imgs/slider3.jpg");
+    width: 2000px;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.board h1{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+    color:white;
+}
+.board a{
+    font-size: 50px;
+    padding-left: 740px;    
+    color: white;
+    margin-left: 150px;
+}
+
+.library{
+    display: block;
+    background-image: linear-gradient(to top,rgb(55, 1, 251),rgba(62, 89, 240, 0));
+    width:2000px;
+    height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.lib{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color:white;
+}
+.library h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color:white;
+}
+.bootstrap{
+    width:300px;
+}
+.jquery{
+    width:300px;
+}
+
+.githubpage{
+    background-image: linear-gradient(to top, rgb(40, 83, 226),rgba(255, 255, 255, 0)), url("imgs/slider5.jpg");
+    width:2000px;
+    height:1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.githubpage h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 40px;
+}
+.githubpage a{
+    color:black;
+    font-size: 40px;
+    padding-left: 900px;
+    color:white;
+}
+.web{
+    width:1200px;
+    height:700px;
+    margin-left: 360px;
+    margin-top: 50px;
+}
